@@ -8,7 +8,7 @@ fun main() {
     println("5- Sair do Menu")
     print("Escolha uma opção desejada: ")
 
-    opcao = readLine()?.toIntOrNull()
+    opcao = readLine().toIntOrNull()
 
     when (opcao) {
         1 -> println("Você escolheu X-Salada. Preço R$18,50")
